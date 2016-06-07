@@ -1,0 +1,15 @@
+import java.applet.Applet;
+import static java.awt.Color.BLACK;
+import java.awt.Graphics;
+
+public class triangle extends Applet{
+	@Override
+	public void paint(Graphics g){
+		int[] xpoints={50,10,90};
+		int[] ypoints={10,30,30};
+		g.setColor(BLACK);
+		g.fillPolygon(xpoints, ypoints, 3);
+		
+	}
+
+}
