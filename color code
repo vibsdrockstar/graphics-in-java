@@ -1,0 +1,4 @@
+g.setColor(Color.blue);
+	g.fillRect(20, 20, 100, 50);
+	g.setColor(Color.red);
+	g.fillOval(50,70,50,50);
