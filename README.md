@@ -1,17 +1,2 @@
 # graphics-in-java
-import javax.swing.JFrame;
-import java.awt.Rectangle;
-public class shape {
-	public static void main(String[] args){
-		JFrame window=new JFrame();
-		window.setSize(600, 400);
-		window.setTitle("This is a frame of J otherwise known as a JFRAME");
-		window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        window.setVisible(true);
-        draw DC=new draw();
-        window.add(DC);
-        
-	}
-	
-
-}
+In this reposit emphasis has been given to the graphics section in Java like rectangle,ellipse,line etc.
