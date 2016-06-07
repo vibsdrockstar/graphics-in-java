@@ -1,0 +1,27 @@
+import java.awt.Color;
+import java.awt.Graphics;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+
+public class Graph extends JPanel {
+public void paintComponent(Graphics g)
+{
+	super.paintComponent(g);
+	g.setColor(Color.RED);
+	g.drawRect(100, 10, 30, 40);
+	g.fillRect(10, 10, 30, 10);
+	
+}
+public static void main(String[] args)
+{
+	Graph g=new Graph();
+	JFrame f=new JFrame();
+	f.setTitle("Tutorial On Shapes");
+	f.setSize(680, 400);
+	f.setVisible(true);
+	f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+	f.add(g);
+	
+}
+}
