@@ -1,0 +1,161 @@
+import java.awt.*;
+import java. applet .*;
+public class triangle2 extends Applet {
+public void init()
+{
+	setSize(350,300);
+}
+public void paint(Graphics g)
+{
+	
+	//A Standard
+setBackground(Color.cyan);
+    //Draw clouds
+    g.setColor(Color.white);
+    g.fillOval(30, 30, 40, 40);
+    g.fillOval(60,30,40,40);
+    g.fillOval(80, 30, 40, 40);
+    g.fillOval(40, 10, 40, 40);
+    g.fillOval(40, 10, 40, 40);
+    g.fillOval(70, 30, 20, 20);
+    g.fillOval(160, 15, 20, 20);
+    g.fillOval(150, 10, 30, 30);
+    g.fillOval(200, 25, 40, 40);
+    g.fillOval(175, 20, 20, 20);
+    g.fillOval(145, 20, 20, 20);
+    //Base Code
+    //Draw the roof
+    g.setColor(Color.blue);
+    int xs[]={100,160,220};
+    int ys[]={100,65,100};
+    Polygon p=new Polygon(xs,ys,3);
+    g.fillPolygon(p);
+    //Draw the body of house
+    g.setColor(Color.blue);
+    g.fillRect(100, 100,120, 120);
+    //draw door
+    g.setColor(Color.gray);
+    g.fillRect(145, 160, 30, 60);
+    //sun
+    g.setColor(Color.yellow);
+    g.fillOval(240, 30, 50, 50);
+    //chimney
+    g.setColor(Color.black);
+    g.fillRect(120, 55, 10, 40);
+    //grass
+    g.setColor(Color.green);
+    g.fillRect(0, 210, 350, 40);
+    //tree
+    g.setColor(Color.gray);
+    g.fillRect(28, 100, 20, 100);
+    g.setColor(Color.green);
+    g.fillOval(0, 40, 80, 80);
+    //Author label
+  
+       import java.awt.*;
+import java. applet .*;
+public class triangle2 extends Applet {
+public void init()
+{
+	setSize(350,300);
+}
+public void paint(Graphics g)
+{
+	
+	//A Standard
+setBackground(Color.cyan);
+    //Draw clouds
+    g.setColor(Color.white);
+    g.fillOval(30, 30, 40, 40);
+    g.fillOval(60,30,40,40);
+    g.fillOval(80, 30, 40, 40);
+    g.fillOval(40, 10, 40, 40);
+    g.fillOval(40, 10, 40, 40);
+    g.fillOval(70, 30, 20, 20);
+    g.fillOval(160, 15, 20, 20);
+    g.fillOval(150, 10, 30, 30);
+    g.fillOval(200, 25, 40, 40);
+    g.fillOval(175, 20, 20, 20);
+    g.fillOval(145, 20, 20, 20);
+    //Base Code
+    //Draw the roof
+    g.setColor(Color.blue);
+    int xs[]={100,160,220};
+    int ys[]={100,65,100};
+    Polygon p=new Polygon(xs,ys,3);
+    g.fillPolygon(p);
+    //Draw the body of house
+    g.setColor(Color.blue);
+    g.fillRect(100, 100,120, 120);
+    //draw door
+    g.setColor(Color.gray);
+    g.fillRect(145, 160, 30, 60);
+    //sun
+    g.setColor(Color.yellow);
+    g.fillOval(240, 30, 50, 50);
+    //chimney
+    g.setColor(Color.black);
+    g.fillRect(120, 55, 10, 40);
+    //grass
+    g.setColor(Color.green);
+    g.fillRect(0, 210, 350, 40);
+    //tree
+    g.setColor(Color.gray);
+    g.fillRect(28, 100, 20, 100);
+    g.setColor(Color.green);
+    g.fillOval(0, 40, 80, 80);
+    //Author label
+    g.setColor(Color.black);
+    g.drawString("Mccain", 130, 130);
+        
+}
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+ 
+}
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
