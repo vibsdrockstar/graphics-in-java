@@ -1,0 +1,13 @@
+import java.applet.Applet;
+import java.awt.Color;
+import java.awt.Graphics;
+public class Rectangle3D extends Applet {
+	@Override
+	public void paint(Graphics g){
+		g.setColor(Color.red);
+		g.fill3DRect(200, 250, 200, 200, true);
+		super.paint(g);
+		
+	}
+
+}
