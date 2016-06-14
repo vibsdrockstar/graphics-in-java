@@ -1,0 +1,25 @@
+import java.awt.Graphics;
+import java.awt.Color;
+import java.applet.*;
+
+public class Drawwww extends Applet
+{
+	public void init()
+	{
+		
+	}
+	public void paint(Graphics g)
+	{
+		
+		g.setColor(new Color(255,0,0));
+		g.drawLine(70, 70, 140, 70);
+		g.drawLine(70, 80, 140, 70);
+		g.drawLine(70, 90, 140, 70);
+		g.drawLine(70, 100, 140, 70);
+		g.drawLine(70, 120, 140, 70);
+		g.drawLine(70, 110, 140, 70);
+		
+		
+	}
+
+}
