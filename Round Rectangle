@@ -1,0 +1,23 @@
+import java.awt.Color;
+import java.applet.Applet;
+import java.awt.Graphics;
+
+public class applet extends Applet {
+public void init(){
+	this.setSize(500,500);
+	
+	this.setVisible(true);
+	
+	
+}
+public void paint(Graphics g){
+	g.setColor(Color.blue);
+	g.fillOval(100, 170, 60, 80);
+	g.setColor(Color.green);
+	g.fillRect(20, 50, 120, 100);
+	g.setColor(Color.pink);
+	g.fillRoundRect(100, 120, 140, 160, 180, 200);
+}
+
+}
+
